@@ -1,6 +1,6 @@
-import requests
 from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from cryptography.hazmat.primitives import hashes, serialization
+import requests
 import base64
 
 client_private_key = rsa.generate_private_key(
